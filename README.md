@@ -4,12 +4,12 @@ Organization of the Kubernetes Community Days in South of France
 
 ## Event Details
 
-* [] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
-* [] Event Date and Time:  8.-10. September 2026
-* [] Event Location: TBD
-* [X] Event Type: In person
-* [X] Expected Number of Attendees: ~400
-* [] Event cost per ticket: 120€ (early bird) / 150€
+- [ ] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
+- [ ] Event Date and Time: 8.-10. September 2026
+- [ ] Event Location: TBD
+- [x] Event Type: In person
+- [x] Expected Number of Attendees: ~400
+- [ ] Event cost per ticket: 120€ (early bird) / 150€
 
 ## Sponsors
 
@@ -17,9 +17,9 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 
 ## Meetings and Communication
 
-* Currently, every second Thuyrsday at 5pm CET
-* Agenda and Notes: 
-* Slack: CNCF Channel TBD
+- Currently, every second Thuyrsday at 5pm CET
+- Agenda and Notes:
+- Slack: CNCF Channel TBD
 
 ## Organizer Decisions
 
@@ -34,15 +34,15 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 
 ## Project Team
 
-| Role                                                         | GitHub Handle                 |
-|--------------------------------------------------------------|-------------------------------|
-| [Coordination Team](./ROLES.md#coordinator-role):            |     |
-| [Finance Team](./ROLES.md#finance-role):                     |        |
-| [Marketing Team](./ROLES.md#marketing-role):                 |  |
-| [Speaker Organizer Team](./ROLES.md#speaker-organiser-role): |  |
-| [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role): |  |
-| [Venue Organizer Team](./ROLES.md#venue-organiser-role):     |  |
+| Role                                                         | GitHub Handle |
+| ------------------------------------------------------------ | ------------- |
+| [Coordination Team](./ROLES.md#coordinator-role):            |               |
+| [Finance Team](./ROLES.md#finance-role):                     |               |
+| [Marketing Team](./ROLES.md#marketing-role):                 |               |
+| [Speaker Organizer Team](./ROLES.md#speaker-organiser-role): |               |
+| [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role): |               |
+| [Venue Organizer Team](./ROLES.md#venue-organiser-role):     |               |
 
 ## Official Organizers
 
-* Henrik Rexed, Dynatrace, CloudNative Advocate, @henrikrexed
+- Henrik Rexed, Dynatrace, CloudNative Advocate, @henrikrexed
