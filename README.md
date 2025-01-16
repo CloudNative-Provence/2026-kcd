@@ -46,3 +46,4 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 ## Official Organizers
 
 - Henrik Rexed, Dynatrace, CloudNative Advocate, @henrikrexed
+- Frederic Leger, webofmars, freelance, @fredleger
