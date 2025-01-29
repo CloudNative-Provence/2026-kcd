@@ -6,7 +6,7 @@ Organization of the Kubernetes Community Days in South of France
 
 - [ ] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
 - [ ] Event Date and Time: 8.-10. September 2026
-- [ ] Event Location: TBD
+- [x] Event Location: theCamp
 - [x] Event Type: In person
 - [x] Expected Number of Attendees: ~400
 - [ ] Event cost per ticket: 120€ (early bird) / 150€
