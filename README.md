@@ -37,7 +37,7 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 | Role                                                        | GitHub Handle   |
 | ----------------------------------------------------------- | --------------- |
 | [Coordination Team](./ROLES.md#coordinator-role)            | @maxime-CLS     |
-| [Finance Team](./ROLES.md#finance-role)                     |                 |
+| [Finance Team](./ROLES.md#finance-role)                     | @sherine-k      |
 | [Marketing Team](./ROLES.md#marketing-role)                 | @henrikrexed    |
 | [Speaker Organizer Team](./ROLES.md#speaker-organiser-role) | @sebastienblanc |
 | [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role) | @lucj           |
