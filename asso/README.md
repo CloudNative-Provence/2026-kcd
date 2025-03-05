@@ -25,4 +25,4 @@ Plusieurs possibilités:
 Doit être faire par l'un des membres.
 Procédure en [ligne](https://www.service-public.fr/particuliers/vosdroits/R1757)
 
-
+Il faut le procès verbale de l'assemblé constitutive (à voir qui peut nous accompagner la dessus)
