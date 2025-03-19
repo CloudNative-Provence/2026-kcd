@@ -1,8 +1,8 @@
-# Projet Associatif de l'Association **KCD Méditerranée**
+# Projet Associatif de l'Association **KCD Provence**
 
 ## **1. Présentation de l'association**
 
-L'association **KCD Méditerranée**, créée en 2025, est une structure collégiale regroupant des passionnés et professionnels du domaine Cloud Native. Notre objectif est de promouvoir les échanges, la formation et l'innovation dans ce domaine à travers des événements, ateliers et rencontres. L'évènement majeur, au coeur de cette association, est le Kubernetes Community Days (KCD).
+L'association **KCD Provence**, créée en 2025, est une structure collégiale regroupant des passionnés et professionnels du domaine Cloud Native. Notre objectif est de promouvoir les échanges, la formation et l'innovation dans ce domaine à travers des événements, ateliers et rencontres. L'évènement majeur, au coeur de cette association, est le Kubernetes Community Days (KCD).
 
 ### **Valeurs et principes**
 
@@ -111,4 +111,4 @@ Le financement sera assuré par :
 
 ## **7. Conclusion**
 
-Le projet associatif porté par l’association **KCD Méditerranée** reflète notre volonté de promouvoir activement le partage des connaissances dans le domaine Cloud Native. Grâce à une organisation collégiale et participative, nous sommes confiants dans notre capacité à faire de cet événement un succès qui bénéficiera à tous ses participants.
+Le projet associatif porté par l’association **KCD Provence** reflète notre volonté de promouvoir activement le partage des connaissances dans le domaine Cloud Native. Grâce à une organisation collégiale et participative, nous sommes confiants dans notre capacité à faire de cet événement un succès qui bénéficiera à tous ses participants.

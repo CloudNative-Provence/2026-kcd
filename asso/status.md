@@ -1,8 +1,8 @@
-# Statuts de l’Association **KCD Méditerranée**
+# Statuts de l’Association **KCD Provence**
 
 ## **Article 1 : Dénomination**
 
-Il est fondé entre les membres adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre : **KCD Méditerranée**.
+Il est fondé entre les membres adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre : **KCD Provence**.
 
 ## **Article 2 : Objet**
 
