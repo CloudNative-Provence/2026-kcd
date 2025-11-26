@@ -1,13 +1,6 @@
-## Choix du nom
+## Nom sélectionné
 
-Propositions:
-- KCD Méditerranée
-- KCD Provence
-- KCD SudDeFrance
-- KCD Riviera
-- ...
-
-=> KCD Provence
+KCD Provence
 
 ## Status
 
@@ -25,11 +18,15 @@ Plusieurs possibilités:
 - Bâtiment communal
 - Local ayant vocation à être loué ou acheté par l'association dès que celle-ci aura été déclarée.
 
-=> Domicile d'un des membres (sur Aix-Marseille ou Montpellier en fonction de l'endroit sélectionné pour la conf)
+=> Domicile d'un des membres sur Aix-Marseille
 
 ## Déclaration de l'asso
 
-Doit être faire par l'un des membres en suivant cette [procédure](https://www.service-public.fr/particuliers/vosdroits/R1757)
+Doit être faite par l'un des membres en suivant cette [procédure](https://www.service-public.fr/particuliers/vosdroits/R1757):
+
+- Procès-verbal de l'assemblée constitutive ou son extrait daté et signé, portant le nom et le prénom du signataire 
+- Statuts de l'association datés et signés par au moins 2 personnes mentionnées sur la liste des dirigeants (bureau ou conseil d'administration), portant leur nom, prénom, et fonction au sein de l'association 
+- Mandat (le cas échéant) portant la signature, le nom, le prénom et la fonction au sein de l'association de l'une des personnes chargées de l'administration (bureau ou conseil d'administration)
 
 Pour la déclaration en préfecture, il faut les documents suivants:
 
