@@ -1,0 +1,495 @@
+/**
+ * Cloud Native Provence - Color Palette
+ * Version: 1.0
+ * Last Updated: December 2025
+ *
+ * Official color palette for Cloud Native Provence community materials.
+ * Includes CSS custom properties and utility classes.
+ */
+
+/* ============================================================================
+   CSS CUSTOM PROPERTIES (CSS VARIABLES)
+   ============================================================================ */
+
+:root {
+  /* Primary Brand Colors */
+  --cnp-deep-navy: #00132e;
+  --cnp-azure-blue: #004a9b;
+  --cnp-cream-white: #fffffd;
+
+  /* Complementary Colors */
+  --cnp-sky-blue: #5ba3d0;
+  --cnp-lavender: #a78bfa;
+  --cnp-slate-gray: #7a8694;
+
+  /* Semantic Color Aliases */
+  --cnp-primary: var(--cnp-deep-navy);
+  --cnp-secondary: var(--cnp-azure-blue);
+  --cnp-accent: var(--cnp-lavender);
+  --cnp-background: var(--cnp-cream-white);
+  --cnp-text: var(--cnp-deep-navy);
+  --cnp-text-muted: var(--cnp-slate-gray);
+
+  /* RGB Values (for alpha transparency) */
+  --cnp-deep-navy-rgb: 0, 19, 46;
+  --cnp-azure-blue-rgb: 0, 74, 155;
+  --cnp-cream-white-rgb: 255, 255, 253;
+  --cnp-sky-blue-rgb: 91, 163, 208;
+  --cnp-lavender-rgb: 167, 139, 250;
+  --cnp-slate-gray-rgb: 122, 134, 148;
+
+  /* State Colors */
+  --cnp-hover-azure: #003875;
+  --cnp-hover-lavender: #9370f0;
+  --cnp-hover-sky: #4a8fc4;
+}
+
+/* ============================================================================
+   BACKGROUND COLOR UTILITIES
+   ============================================================================ */
+
+/* Primary Backgrounds */
+.cnp-bg-deep-navy {
+  background-color: var(--cnp-deep-navy);
+}
+
+.cnp-bg-azure-blue {
+  background-color: var(--cnp-azure-blue);
+}
+
+.cnp-bg-cream-white {
+  background-color: var(--cnp-cream-white);
+}
+
+/* Complementary Backgrounds */
+.cnp-bg-sky-blue {
+  background-color: var(--cnp-sky-blue);
+}
+
+.cnp-bg-lavender {
+  background-color: var(--cnp-lavender);
+}
+
+.cnp-bg-slate-gray {
+  background-color: var(--cnp-slate-gray);
+}
+
+/* Semantic Backgrounds */
+.cnp-bg-primary {
+  background-color: var(--cnp-primary);
+}
+
+.cnp-bg-secondary {
+  background-color: var(--cnp-secondary);
+}
+
+.cnp-bg-accent {
+  background-color: var(--cnp-accent);
+}
+
+/* Background with Opacity */
+.cnp-bg-deep-navy-10 {
+  background-color: rgba(var(--cnp-deep-navy-rgb), 0.1);
+}
+
+.cnp-bg-deep-navy-20 {
+  background-color: rgba(var(--cnp-deep-navy-rgb), 0.2);
+}
+
+.cnp-bg-deep-navy-50 {
+  background-color: rgba(var(--cnp-deep-navy-rgb), 0.5);
+}
+
+.cnp-bg-azure-blue-10 {
+  background-color: rgba(var(--cnp-azure-blue-rgb), 0.1);
+}
+
+.cnp-bg-azure-blue-20 {
+  background-color: rgba(var(--cnp-azure-blue-rgb), 0.2);
+}
+
+.cnp-bg-lavender-10 {
+  background-color: rgba(var(--cnp-lavender-rgb), 0.1);
+}
+
+.cnp-bg-lavender-20 {
+  background-color: rgba(var(--cnp-lavender-rgb), 0.2);
+}
+
+/* ============================================================================
+   TEXT COLOR UTILITIES
+   ============================================================================ */
+
+/* Primary Text Colors */
+.cnp-text-deep-navy {
+  color: var(--cnp-deep-navy);
+}
+
+.cnp-text-azure-blue {
+  color: var(--cnp-azure-blue);
+}
+
+.cnp-text-cream-white {
+  color: var(--cnp-cream-white);
+}
+
+/* Complementary Text Colors */
+.cnp-text-sky-blue {
+  color: var(--cnp-sky-blue);
+}
+
+.cnp-text-lavender {
+  color: var(--cnp-lavender);
+}
+
+.cnp-text-slate-gray {
+  color: var(--cnp-slate-gray);
+}
+
+/* Semantic Text Colors */
+.cnp-text-primary {
+  color: var(--cnp-primary);
+}
+
+.cnp-text-secondary {
+  color: var(--cnp-secondary);
+}
+
+.cnp-text-accent {
+  color: var(--cnp-accent);
+}
+
+.cnp-text-muted {
+  color: var(--cnp-text-muted);
+}
+
+/* ============================================================================
+   BORDER COLOR UTILITIES
+   ============================================================================ */
+
+/* Primary Border Colors */
+.cnp-border-deep-navy {
+  border-color: var(--cnp-deep-navy);
+}
+
+.cnp-border-azure-blue {
+  border-color: var(--cnp-azure-blue);
+}
+
+.cnp-border-cream-white {
+  border-color: var(--cnp-cream-white);
+}
+
+/* Complementary Border Colors */
+.cnp-border-sky-blue {
+  border-color: var(--cnp-sky-blue);
+}
+
+.cnp-border-lavender {
+  border-color: var(--cnp-lavender);
+}
+
+.cnp-border-slate-gray {
+  border-color: var(--cnp-slate-gray);
+}
+
+/* Border Utilities */
+.cnp-border {
+  border: 1px solid var(--cnp-slate-gray);
+}
+
+.cnp-border-2 {
+  border: 2px solid var(--cnp-slate-gray);
+}
+
+/* ============================================================================
+   GRADIENT UTILITIES
+   ============================================================================ */
+
+/* Brand Gradients */
+.cnp-gradient-primary {
+  background: linear-gradient(135deg, var(--cnp-azure-blue) 0%, var(--cnp-deep-navy) 100%);
+}
+
+.cnp-gradient-accent {
+  background: linear-gradient(135deg, var(--cnp-lavender) 0%, var(--cnp-azure-blue) 100%);
+}
+
+.cnp-gradient-sky {
+  background: linear-gradient(135deg, var(--cnp-sky-blue) 0%, var(--cnp-azure-blue) 100%);
+}
+
+.cnp-gradient-overlay {
+  background: linear-gradient(180deg, rgba(var(--cnp-deep-navy-rgb), 0.8) 0%, rgba(var(--cnp-azure-blue-rgb), 0.9) 100%);
+}
+
+/* Text Gradients */
+.cnp-text-gradient-primary {
+  background: linear-gradient(135deg, var(--cnp-azure-blue) 0%, var(--cnp-deep-navy) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cnp-text-gradient-accent {
+  background: linear-gradient(135deg, var(--cnp-lavender) 0%, var(--cnp-azure-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================================
+   HOVER STATE UTILITIES
+   ============================================================================ */
+
+.cnp-hover-azure:hover {
+  background-color: var(--cnp-hover-azure);
+}
+
+.cnp-hover-lavender:hover {
+  background-color: var(--cnp-hover-lavender);
+}
+
+.cnp-hover-sky:hover {
+  background-color: var(--cnp-hover-sky);
+}
+
+/* Hover with Transition */
+.cnp-hover-transition {
+  transition: all 0.3s ease;
+}
+
+/* ============================================================================
+   SHADOW UTILITIES
+   ============================================================================ */
+
+/* Shadows using brand colors */
+.cnp-shadow-sm {
+  box-shadow: 0 2px 8px rgba(var(--cnp-deep-navy-rgb), 0.08);
+}
+
+.cnp-shadow-md {
+  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.12);
+}
+
+.cnp-shadow-lg {
+  box-shadow: 0 8px 24px rgba(var(--cnp-deep-navy-rgb), 0.16);
+}
+
+.cnp-shadow-xl {
+  box-shadow: 0 12px 32px rgba(var(--cnp-azure-blue-rgb), 0.2);
+}
+
+/* Colored shadows */
+.cnp-shadow-azure {
+  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.3);
+}
+
+.cnp-shadow-lavender {
+  box-shadow: 0 4px 16px rgba(var(--cnp-lavender-rgb), 0.3);
+}
+
+/* ============================================================================
+   ACCESSIBILITY UTILITIES
+   ============================================================================ */
+
+/* Focus States (Accessibility) */
+.cnp-focus-visible:focus-visible {
+  outline: 2px solid var(--cnp-lavender);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+.cnp-skip-link {
+  background-color: var(--cnp-azure-blue);
+  color: var(--cnp-cream-white);
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: -9999px;
+}
+
+.cnp-skip-link:focus {
+  left: 0;
+  z-index: 9999;
+}
+
+/* ============================================================================
+   COMPONENT EXAMPLES
+   ============================================================================ */
+
+/* Example: Card with brand colors */
+.cnp-card {
+  background-color: var(--cnp-cream-white);
+  border: 1px solid rgba(var(--cnp-slate-gray-rgb), 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(var(--cnp-deep-navy-rgb), 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.cnp-card:hover {
+  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.12);
+}
+
+/* Example: Button Primary */
+.cnp-btn-primary {
+  background-color: var(--cnp-azure-blue);
+  color: var(--cnp-cream-white);
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cnp-btn-primary:hover {
+  background-color: var(--cnp-hover-azure);
+}
+
+/* Example: Button Secondary */
+.cnp-btn-secondary {
+  background-color: transparent;
+  color: var(--cnp-azure-blue);
+  border: 2px solid var(--cnp-azure-blue);
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cnp-btn-secondary:hover {
+  background-color: rgba(var(--cnp-azure-blue-rgb), 0.1);
+}
+
+/* Example: Button Accent */
+.cnp-btn-accent {
+  background-color: var(--cnp-lavender);
+  color: var(--cnp-cream-white);
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cnp-btn-accent:hover {
+  background-color: var(--cnp-hover-lavender);
+}
+
+/* Example: Badge */
+.cnp-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.cnp-badge-primary {
+  background-color: var(--cnp-azure-blue);
+  color: var(--cnp-cream-white);
+}
+
+.cnp-badge-accent {
+  background-color: var(--cnp-lavender);
+  color: var(--cnp-cream-white);
+}
+
+.cnp-badge-outline {
+  background-color: transparent;
+  border: 2px solid var(--cnp-azure-blue);
+  color: var(--cnp-azure-blue);
+}
+
+/* Example: Alert/Banner */
+.cnp-alert {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.cnp-alert-info {
+  background-color: rgba(var(--cnp-sky-blue-rgb), 0.1);
+  border-left: 4px solid var(--cnp-sky-blue);
+  color: var(--cnp-deep-navy);
+}
+
+.cnp-alert-accent {
+  background-color: rgba(var(--cnp-lavender-rgb), 0.1);
+  border-left: 4px solid var(--cnp-lavender);
+  color: var(--cnp-deep-navy);
+}
+
+/* ============================================================================
+   DARK MODE SUPPORT (Optional)
+   ============================================================================ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Adjust colors for dark mode if needed */
+    --cnp-background: var(--cnp-deep-navy);
+    --cnp-text: var(--cnp-cream-white);
+  }
+
+  .cnp-card {
+    background-color: rgba(var(--cnp-cream-white-rgb), 0.05);
+    border-color: rgba(var(--cnp-cream-white-rgb), 0.1);
+  }
+}
+
+/* ============================================================================
+   UTILITY CLASSES
+   ============================================================================ */
+
+/* Width Utilities */
+.cnp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.cnp-container-fluid {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* Text Alignment */
+.cnp-text-center {
+  text-align: center;
+}
+
+.cnp-text-left {
+  text-align: left;
+}
+
+.cnp-text-right {
+  text-align: right;
+}
+
+/* Display Utilities */
+.cnp-flex {
+  display: flex;
+}
+
+.cnp-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cnp-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cnp-grid {
+  display: grid;
+}
+
+/* ============================================================================
+   END OF COLOR PALETTE
+   ============================================================================ */
