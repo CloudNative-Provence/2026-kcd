@@ -5,11 +5,11 @@ Organization of the Kubernetes Community Days in South of France
 ## Event Details
 
 - [ ] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
-- [ ] Event Date and Time: 8.-10. September 2026
-- [ ] Event Location: TBD
+- [x] Event Date and Time: 17 September 2026
+- [x] Event Location: theCamp
 - [x] Event Type: In person
 - [x] Expected Number of Attendees: ~400
-- [ ] Event cost per ticket: 120€ (early bird) / 150€
+- [x] Event cost per ticket: 50€ (early bird) / 90€
 
 ## Sponsors
 
@@ -34,15 +34,19 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 
 ## Project Team
 
-| Role                                                         | GitHub Handle |
-| ------------------------------------------------------------ | ------------- |
-| [Coordination Team](./ROLES.md#coordinator-role):            |               |
-| [Finance Team](./ROLES.md#finance-role):                     |               |
-| [Marketing Team](./ROLES.md#marketing-role):                 |               |
-| [Speaker Organizer Team](./ROLES.md#speaker-organiser-role): |               |
-| [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role): |               |
-| [Venue Organizer Team](./ROLES.md#venue-organiser-role):     |               |
+| Role                                                        | GitHub Handle   |
+| ----------------------------------------------------------- | --------------- |
+| [Coordination Team](./ROLES.md#coordinator-role)            | @maxime-CLS     |
+| [Finance Team](./ROLES.md#finance-role)                     | @sherine-k      |
+| [Marketing Team](./ROLES.md#marketing-role)                 | @henrikrexed    |
+| [Speaker Organizer Team](./ROLES.md#speaker-organiser-role) | @sebastienblanc |
+| [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role) | @lucj           |
+| [Venue Organizer Team](./ROLES.md#venue-organiser-role)     | @fredleger      |
 
 ## Official Organizers
 
 - Henrik Rexed, Dynatrace, CloudNative Advocate, @henrikrexed
+- Frederic Leger, webofmars, freelance, @fredleger
+- Luc Juggery, exoscale, devrel, @lucj
+- Sébastien Blanc, port.io, devrel, @sebastienblanc
+- Maxime Calves, CAGIP, lead SRE, @maxime-CLS
