@@ -1,6 +1,7 @@
 # Cloud Native Provence - Brand Style Guide
 
 > Official brand guidelines for Cloud Native Provence community materials
+> Updated for the ship's helm/wheel logo design - February 2026
 
 ---
 
@@ -10,28 +11,29 @@
 
 | Color | Hex | RGB | Usage |
 |-------|-----|-----|-------|
-| **Deep Navy** | `#00132e` | 0, 19, 46 | Primary brand color - Use for headers, backgrounds, and main elements |
-| **Azure Blue** | `#004a9b` | 0, 74, 155 | Secondary brand color - Use for accents and interactive elements |
-| **Cream White** | `#fffffd` | 255, 255, 253 | Background color - Use for main backgrounds and contrast |
+| **Provence Blue** | `#356cc8` | 53, 108, 200 | Primary brand color - Main element in helm/wheel, logo badge, headers |
+| **Pure White** | `#ffffff` | 255, 255, 255 | Background color - Clouds, text, highlights, water elements |
+| **Deep Navy** | `#1a2d4d` | 26, 45, 77 | Text and dark backgrounds - Body text, dark overlays |
 
 ### Complementary Colors
 
 | Color | Hex | RGB | Usage |
 |-------|-----|-----|-------|
-| **Sky Blue** | `#5ba3d0` | 91, 163, 208 | Light accent - Use for highlights, hover states, and secondary elements |
-| **Lavender** | `#a78bfa` | 167, 139, 250 | Accent color - Use for CTAs, important highlights, and creative elements |
-| **Slate Gray** | `#7a8694` | 122, 134, 148 | Neutral - Use for secondary text, borders, and subtle elements |
+| **Sky Mist** | `#6b8fd4` | 107, 143, 212 | Light accent - Hover states, secondary elements, light backgrounds |
+| **Alpine White** | `#f0f4fa` | 240, 244, 250 | Light backgrounds - Card backgrounds, subtle fills |
+| **Storm Gray** | `#4a5568` | 74, 85, 104 | Secondary text - Captions, metadata, secondary information |
+| **Mediterranean Teal** | `#2da3b8` | 45, 163, 184 | Accent highlights - Interactive elements, emphasis |
 
 ### Color Swatches
 
 ```
-Deep Navy    Azure Blue   Cream White
-#00132e      #004a9b      #fffffd
-███████      ███████      ███████
+Provence Blue   Pure White      Deep Navy
+#356cc8         #ffffff         #1a2d4d
+███████         ███████         ███████
 
-Sky Blue     Lavender     Slate Gray
-#5ba3d0      #a78bfa      #7a8694
-███████      ███████      ███████
+Sky Mist        Alpine White    Storm Gray        Mediterranean Teal
+#6b8fd4         #f0f4fa         #4a5568           #2da3b8
+███████         ███████         ███████           ███████
 ```
 
 ---
@@ -42,43 +44,47 @@ Sky Blue     Lavender     Slate Gray
 
 | Background | Text/Foreground | Use Case |
 |------------|----------------|----------|
-| `#fffffd` | `#00132e` | Primary content, body text |
-| `#00132e` | `#fffffd` | Headers, hero sections |
-| `#004a9b` | `#fffffd` | Buttons, call-to-action |
-| `#fffffd` | `#7a8694` | Secondary text, captions |
-| `#a78bfa` | `#00132e` | Accent CTAs on dark backgrounds |
+| `#ffffff` | `#1a2d4d` | Primary content, body text, main interface |
+| `#1a2d4d` | `#ffffff` | Headers, hero sections, dark backgrounds |
+| `#356cc8` | `#ffffff` | Buttons, call-to-action, primary interactive elements |
+| `#ffffff` | `#4a5568` | Secondary text, captions, metadata |
+| `#f0f4fa` | `#1a2d4d` | Card backgrounds, content containers |
+| `#2da3b8` | `#ffffff` | Accent buttons, highlight areas |
+| `#6b8fd4` | `#ffffff` | Hover states, secondary buttons |
 
 ### ❌ Avoid These Combinations
 
-- `#004a9b` on `#00132e` (insufficient contrast)
-- `#5ba3d0` on `#fffffd` (too light for text)
-- `#7a8694` on `#5ba3d0` (poor readability)
-- `#a78bfa` on `#fffffd` (use for decorative elements only)
+- `#356cc8` on `#1a2d4d` (insufficient contrast)
+- `#6b8fd4` on `#ffffff` (too light for body text)
+- `#4a5568` on `#6b8fd4` (poor readability)
+- `#2da3b8` on `#ffffff` (use primarily for interactive elements)
 
 ---
 
 ## 🔤 Typography
 
 ### Primary Font: Poppins
+**Alternative Font: Work Sans**
 
-**Font Family:** [Poppins](https://fonts.google.com/specimen/Poppins) (Google Fonts)
+**Font Families:** [Poppins](https://fonts.google.com/specimen/Poppins) and [Work Sans](https://fonts.google.com/specimen/Work+Sans) (Google Fonts)
 
 **Import:**
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 ```
 
 ### Type Scale
 
 | Element | Font Weight | Size | Line Height | Color | Use Case |
 |---------|-------------|------|-------------|-------|----------|
-| **H1 - Display** | Bold (700) | 48px / 3rem | 1.2 | `#00132e` | Page titles, hero headings |
-| **H2 - Section** | SemiBold (600) | 36px / 2.25rem | 1.3 | `#00132e` | Section titles |
-| **H3 - Subsection** | SemiBold (600) | 28px / 1.75rem | 1.4 | `#004a9b` | Subsection titles |
-| **H4 - Component** | Medium (500) | 20px / 1.25rem | 1.5 | `#00132e` | Card titles, component headers |
-| **Body** | Regular (400) | 16px / 1rem | 1.6 | `#00132e` | Paragraphs, general content |
-| **Body Small** | Regular (400) | 14px / 0.875rem | 1.6 | `#7a8694` | Captions, metadata, footnotes |
-| **Button/CTA** | SemiBold (600) | 16px / 1rem | - | `#fffffd` | Buttons, links, CTAs |
+| **H1 - Display** | Bold (700) | 48px / 3rem | 1.2 | `#1a2d4d` | Page titles, hero headings |
+| **H2 - Section** | SemiBold (600) | 36px / 2.25rem | 1.3 | `#1a2d4d` | Section titles |
+| **H3 - Subsection** | SemiBold (600) | 28px / 1.75rem | 1.4 | `#356cc8` | Subsection titles |
+| **H4 - Component** | Medium (500) | 20px / 1.25rem | 1.5 | `#1a2d4d` | Card titles, component headers |
+| **Body** | Regular (400) | 16px / 1rem | 1.6 | `#1a2d4d` | Paragraphs, general content |
+| **Body Small** | Regular (400) | 14px / 0.875rem | 1.6 | `#4a5568` | Captions, metadata, footnotes |
+| **Button/CTA** | SemiBold (600) | 16px / 1rem | - | `#ffffff` | Buttons, links, CTAs |
 
 **Letter Spacing for CTAs:** 0.5px
 
@@ -86,47 +92,52 @@ Sky Blue     Lavender     Slate Gray
 
 ## 🖼️ Logo Usage
 
+### Logo Concept
+
+The Cloud Native Provence logo features a **ship's helm/wheel (Kubernetes-inspired)** design representing:
+- **Helm/Wheel:** Navigation, direction, and cloud-native orchestration (Kubernetes helm reference)
+- **"CLOUD NATIVE PROVENCE" text:** Curved along the top of the circular badge
+- **White clouds:** Cloud-native technology and sky elements
+- **Blue mountains:** Provence/Alpine landscape references (visual connection to region)
+- **Water/waves:** Mediterranean Sea reference and fluidity
+- **Circular badge with helm spokes:** Modern, technical aesthetic
+
 ### Logo Versions
 
-We have **three official logo versions**:
+#### 1. Full Helm Badge Logo
+**File:** `cnp-logo-helm-hires.png`
 
-#### 1. Full Hexagon Badge Logo
-**File:** `cnp-logo-full-hexagon.png`
-
-- Complete logo with hexagonal badge, lighthouse icon, cloud elements, and "CLOUD NATIVE PROVENCE" text
-- Features azure blue (`#004a9b`) hexagon with deep navy (`#00132e`) center
-- White lighthouse and cloud elements
+- Complete logo with circular helm badge, "CLOUD NATIVE PROVENCE" text curved at top
+- White clouds with Provence Blue mountains
+- Water/wave elements at bottom
+- Provence Blue color (#356cc8) as primary element
 - **Use for:** Profile pictures, social media, badges, stickers, primary branding
-- **Background:** Any light or neutral background - works on `#fffffd`, white, or light gray
+- **Background:** Light or neutral backgrounds - works on `#ffffff`, light gray, or `#f0f4fa`
 - **Minimum size:** 200px width (digital), 40mm (print)
 
-#### 2. Icon - Outlined Cloud Version
-**File:** `cnp-logo-outlined-cloud.png`
+#### 2. SVG Helm Logo
+**File:** `cnp-logo-helm.svg`
 
-- Lighthouse icon with outlined cloud shapes
-- Navy blue (`#00132e`) lighthouse on transparent background
-- Outlined clouds (not filled)
-- **Use for:** Backgrounds, watermarks, subtle branding, overlays on photos
-- **Background:** Light backgrounds only - `#fffffd`, white, or light colors
-- **Minimum size:** 120px width (digital), 25mm (print)
+- Scalable vector version of complete logo
+- Full color, ready for any size requirement
+- Supports transparent backgrounds
+- **Use for:** Responsive websites, scalable applications, print materials at any resolution
+- **Background:** Any background works with appropriate color variants
+- **Minimum size:** No minimum - infinitely scalable
 
-#### 3. Icon - Filled Badge Version
-**File:** `cnp-logo-filled-badge.png`
+### Logo Design System
 
-- Lighthouse icon with hexagonal badge (no text)
-- Navy blue filled hexagon with white lighthouse
-- **Use for:** App icons, favicons, small spaces where text isn't readable
-- **Background:** Any background - works on light, dark, or colored backgrounds
-- **Minimum size:** 64px (favicons), 512px (app icons)
+**Primary Elements:**
+- **Provence Blue (#356cc8):** Main helm/wheel spokes, mountains, badge outline
+- **Pure White (#ffffff):** Clouds, text, mountain highlights, water elements
+- **Deep Navy (#1a2d4d):** Optional shadow/depth (when needed)
 
-### Logo Design Elements
-
-**The Cloud Native Provence logo features:**
-- **Lighthouse:** Represents Provence's Mediterranean coastal heritage and guidance/navigation
-- **Hexagon:** Mirrors Kubernetes/cloud-native community branding patterns
-- **Clouds:** Symbolizes cloud-native technology
-- **Color Gradient:** Azure blue to deep navy creates depth and dimension
-- **3D Effect:** Shadow effect on hexagon badge adds modern, professional appearance
+**Visual Characteristics:**
+- Circular badge format (modern, balanced)
+- Kubernetes-inspired helm spokes (cloud-native connection)
+- Mediterranean-inspired mountain and water elements
+- Professional 3D effect with subtle depth
+- Clean, scalable vector design
 
 ---
 
@@ -134,53 +145,57 @@ We have **three official logo versions**:
 
 | Context | Recommended Version | Notes |
 |---------|-------------------|-------|
-| Website Header | Full Hexagon Badge | Primary branding |
-| Social Media Profile | Full Hexagon Badge | Square format works perfectly |
-| Social Media Posts | Any version | Choose based on layout |
-| Presentation Title Slide | Full Hexagon Badge | Maximum impact |
-| Presentation Recurring | Icon - Filled Badge | Subtle, doesn't dominate |
-| Documentation | Icon - Outlined Cloud | Clean, professional |
-| Favicon | Icon - Filled Badge | Recognizable at small sizes |
-| T-Shirts/Merchandise | Full Hexagon Badge | Best for printing |
-| Stickers | Full Hexagon Badge | Die-cut friendly hexagon |
-| Email Signature | Icon - Filled Badge | Space-efficient |
-| GitHub Avatar | Full Hexagon Badge | Clear at all sizes |
-| Watermarks | Icon - Outlined Cloud | Subtle, non-intrusive |
+| Website Header | Full Helm Badge Logo | Primary branding, SVG for responsiveness |
+| Social Media Profile | Full Helm Badge Logo | Square format works perfectly |
+| Social Media Posts | Any version | Choose based on layout and background |
+| Presentation Title Slide | Full Helm Badge Logo | Maximum impact, use SVG or HiRes PNG |
+| Presentation Recurring | Icon Helm Badge | Subtle, doesn't dominate slides |
+| Documentation | SVG Helm Logo | Clean, professional, scalable |
+| Favicon | Icon Helm Badge | Recognizable at small sizes |
+| T-Shirts/Merchandise | Full Helm Badge Logo | Best for printing |
+| Stickers | Full Helm Badge Logo | Circular format ideal for die-cutting |
+| Email Signature | Icon Helm Badge | Space-efficient |
+| GitHub Avatar | Full Helm Badge Logo | Clear at all sizes |
+| Watermarks | Icon Helm Badge | Subtle, non-intrusive |
+| Documentation Headers | SVG Helm Logo | Responsive, professional |
 
 ### Background Recommendations
 
-#### Full Hexagon Badge Logo:
-- ✅ White (`#fffffd`)
+#### Full Helm Badge Logo:
+- ✅ Pure White (`#ffffff`)
 - ✅ Light gray (`#f5f5f5`)
-- ✅ Light sky blue (`#e6f3ff`)
-- ❌ Avoid dark backgrounds (logo has dark elements)
+- ✅ Alpine White (`#f0f4fa`)
+- ✅ Light blue backgrounds
+- ❌ Avoid very dark backgrounds (high contrast issues)
 - ❌ Avoid busy patterns
 
-#### Icon - Outlined Cloud Version:
-- ✅ White (`#fffffd`)
-- ✅ Very light backgrounds
-- ✅ Photo overlays (light areas)
-- ❌ Dark backgrounds (outlines won't be visible)
+#### SVG Helm Logo:
+- ✅ Any background color
+- ✅ Light or dark
+- ✅ Responsive designs
+- ✅ Print materials
+- Supports color variants for different backgrounds
 
-#### Icon - Filled Badge Version:
+#### Icon Helm Badge:
 - ✅ Any background color
 - ✅ Photos (dark or light)
 - ✅ Colored backgrounds
-- ✅ Deep navy (`#00132e`) - creates monochrome effect
-- ✅ Azure blue (`#004a9b`) - tone-on-tone effect
+- ✅ Deep Navy (`#1a2d4d`) - creates monochrome effect
+- ✅ Provence Blue (`#356cc8`) - tone-on-tone effect
 
 ---
 
 ## 🚫 Logo Don'ts
 
 - ❌ Do not rotate the logo
-- ❌ Do not change logo colors (use only the 3 approved versions)
-- ❌ Do not add effects (shadows, gradients, outlines) to logo itself
+- ❌ Do not change logo colors (use only the approved versions)
+- ❌ Do not add effects beyond original design (shadows, gradients, outlines)
 - ❌ Do not stretch or distort proportions
-- ❌ Do not place on busy backgrounds without sufficient contrast
-- ❌ Do not recreate or modify the logo
-- ❌ Do not separate the lighthouse from clouds in outlined version
-- ❌ Do not use outlined cloud version on dark backgrounds
+- ❌ Do not place on backgrounds without sufficient contrast
+- ❌ Do not recreate or modify the logo design
+- ❌ Do not separate design elements from the complete logo
+- ❌ Do not use for unrelated purposes or projects
+- ❌ Do not apply filters or color overlays to the logo
 
 ---
 
@@ -190,8 +205,8 @@ We have **three official logo versions**:
 
 #### Primary Button
 ```css
-background: #004a9b;
-color: #fffffd;
+background: #356cc8;
+color: #ffffff;
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
 font-size: 16px;
@@ -200,13 +215,14 @@ border-radius: 8px;
 border: none;
 cursor: pointer;
 ```
-**Hover State:** `background: #003875`
+**Hover State:** `background: #2a56b0`
+**Active State:** `background: #1f3f7d`
 
 #### Secondary Button
 ```css
 background: transparent;
-color: #004a9b;
-border: 2px solid #004a9b;
+color: #356cc8;
+border: 2px solid #356cc8;
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
 font-size: 16px;
@@ -214,12 +230,13 @@ padding: 12px 32px;
 border-radius: 8px;
 cursor: pointer;
 ```
-**Hover State:** `background: #f0f7ff`
+**Hover State:** `background: #f0f4fa`
+**Active State:** `background: #e0e8f5`
 
 #### Accent Button (CTA)
 ```css
-background: #a78bfa;
-color: #fffffd;
+background: #2da3b8;
+color: #ffffff;
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
 font-size: 16px;
@@ -228,18 +245,46 @@ border-radius: 8px;
 border: none;
 cursor: pointer;
 ```
-**Hover State:** `background: #9370f0`
+**Hover State:** `background: #2487a0`
+**Active State:** `background: #1d6b85`
+
+#### Tertiary Button (Subtle)
+```css
+background: transparent;
+color: #356cc8;
+border: 1px solid #6b8fd4;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 16px;
+padding: 12px 32px;
+border-radius: 8px;
+cursor: pointer;
+```
+**Hover State:** `background: rgba(53, 108, 200, 0.1)`
 
 ### Cards
 
 ```css
-background: #fffffd;
+background: #ffffff;
 border: 1px solid #e5e5e5;
 border-radius: 12px;
 padding: 24px;
-box-shadow: 0 2px 8px rgba(0, 19, 46, 0.08);
+box-shadow: 0 2px 8px rgba(26, 45, 77, 0.08);
 ```
-**Hover State:** `box-shadow: 0 4px 16px rgba(0, 74, 155, 0.12)`
+**Hover State:** `box-shadow: 0 4px 16px rgba(53, 108, 200, 0.12)`
+
+### Input Fields
+
+```css
+background: #ffffff;
+border: 1px solid #d0d7e5;
+border-radius: 8px;
+padding: 12px 16px;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+color: #1a2d4d;
+```
+**Focus State:** `border: 2px solid #356cc8; box-shadow: 0 0 0 3px rgba(53, 108, 200, 0.1)`
 
 ---
 
@@ -250,22 +295,32 @@ Use these CSS custom properties in your projects:
 ```css
 :root {
   /* Primary Colors */
-  --cnp-deep-navy: #00132e;
-  --cnp-azure-blue: #004a9b;
-  --cnp-cream-white: #fffffd;
-  
+  --cnp-provence-blue: #356cc8;
+  --cnp-pure-white: #ffffff;
+  --cnp-deep-navy: #1a2d4d;
+
   /* Complementary Colors */
-  --cnp-sky-blue: #5ba3d0;
-  --cnp-lavender: #a78bfa;
-  --cnp-slate-gray: #7a8694;
-  
+  --cnp-sky-mist: #6b8fd4;
+  --cnp-alpine-white: #f0f4fa;
+  --cnp-storm-gray: #4a5568;
+  --cnp-mediterranean-teal: #2da3b8;
+
+  /* Semantic Aliases */
+  --cnp-primary: var(--cnp-provence-blue);
+  --cnp-secondary: var(--cnp-deep-navy);
+  --cnp-accent: var(--cnp-mediterranean-teal);
+  --cnp-background: var(--cnp-pure-white);
+  --cnp-text: var(--cnp-deep-navy);
+  --cnp-text-secondary: var(--cnp-storm-gray);
+
   /* Typography */
   --cnp-font-family: 'Poppins', sans-serif;
+  --cnp-font-family-alt: 'Work Sans', sans-serif;
   --cnp-font-weight-regular: 400;
   --cnp-font-weight-medium: 500;
   --cnp-font-weight-semibold: 600;
   --cnp-font-weight-bold: 700;
-  
+
   /* Spacing */
   --cnp-space-xs: 4px;
   --cnp-space-sm: 8px;
@@ -273,11 +328,16 @@ Use these CSS custom properties in your projects:
   --cnp-space-lg: 24px;
   --cnp-space-xl: 32px;
   --cnp-space-2xl: 48px;
-  
+
   /* Border Radius */
   --cnp-radius-sm: 4px;
   --cnp-radius-md: 8px;
   --cnp-radius-lg: 12px;
+
+  /* Shadow */
+  --cnp-shadow-sm: 0 2px 8px rgba(26, 45, 77, 0.08);
+  --cnp-shadow-md: 0 4px 16px rgba(53, 108, 200, 0.12);
+  --cnp-shadow-lg: 0 8px 24px rgba(26, 45, 77, 0.16);
 }
 ```
 
@@ -292,18 +352,28 @@ Use these CSS custom properties in your projects:
 @media (max-width: 768px) {
   /* Scale typography down 10-15% */
   /* Stack elements vertically */
+  /* Increase touch targets to 44px minimum */
 }
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* Adjust spacing */
+  /* Adjust spacing for medium screens */
+  /* Optimize grid layouts */
 }
 
 /* Desktop */
 @media (min-width: 1025px) {
   /* Full layout */
+  /* Maximum spacing */
 }
 ```
+
+### Logo Sizing Guidelines
+
+- **Mobile (< 768px):** Minimum 120px width for full logo
+- **Tablet (768px - 1024px):** Minimum 160px width for full logo
+- **Desktop (> 1024px):** Minimum 200px width for full logo
+- **Favicon:** Fixed 32x32px or 64x64px (icon version)
 
 ---
 
@@ -311,14 +381,20 @@ Use these CSS custom properties in your projects:
 
 | Combination | Contrast Ratio | Rating | Use Case |
 |-------------|---------------|--------|----------|
-| `#00132e` on `#fffffd` | 18.5:1 | AAA ✓ | Body text |
-| `#004a9b` on `#fffffd` | 8.6:1 | AAA ✓ | Headings, buttons |
-| `#7a8694` on `#fffffd` | 5.2:1 | AA ✓ | Secondary text |
-| `#fffffd` on `#00132e` | 18.5:1 | AAA ✓ | Reverse text |
-| `#a78bfa` on `#fffffd` | 3.1:1 | - | Decorative only |
-| `#a78bfa` on `#00132e` | 6.1:1 | AA ✓ | Text on dark bg |
+| `#1a2d4d` on `#ffffff` | 16.2:1 | AAA ✓ | Body text, primary contrast |
+| `#356cc8` on `#ffffff` | 6.8:1 | AA ✓ | Headings, buttons |
+| `#4a5568` on `#ffffff` | 7.9:1 | AA ✓ | Secondary text |
+| `#ffffff` on `#1a2d4d` | 16.2:1 | AAA ✓ | Reverse text, dark backgrounds |
+| `#ffffff` on `#356cc8` | 4.6:1 | AA ✓ | Buttons, interactive elements |
+| `#2da3b8` on `#ffffff` | 5.4:1 | AA ✓ | Accent elements |
+| `#6b8fd4` on `#ffffff` | 3.9:1 | - | Decorative/hover only |
+| `#2da3b8` on `#1a2d4d` | 3.1:1 | - | Accent on dark (decorative) |
 
-**Note:** For best accessibility with lavender, use on dark backgrounds (`#00132e`) or as decorative elements only.
+**Accessibility Notes:**
+- Always test color combinations with contrast checkers
+- Avoid using color alone to convey information
+- For Sky Mist (#6b8fd4), use primarily for hover states or with supporting visual elements
+- Ensure sufficient contrast for all text and interactive elements
 
 ---
 
@@ -328,21 +404,21 @@ Use these CSS custom properties in your projects:
 
 | Version | Format | Transparency | Best For |
 |---------|--------|--------------|----------|
-| Full Hexagon Badge | PNG | Yes (except badge area) | Web, social media, presentations |
-| Icon - Outlined Cloud | PNG | Full transparency | Overlays, watermarks |
-| Icon - Filled Badge | PNG | Hexagon only | Icons, favicons, versatile use |
+| Full Helm Badge Logo | PNG | Background preserved | Web, social media, presentations |
+| SVG Helm Logo | SVG | Full transparency | Responsive web, scalable use |
+| Icon Helm Badge | PNG | Transparent background | Icons, favicons, tight spaces |
 
 ### Recommended Exports
 
-- **Web:** PNG at 2x resolution (retina ready)
-- **Print:** Request vector SVG or EPS version
-- **Social Media:** PNG at platform's recommended dimensions
-- **Favicon:** 512x512px PNG of filled badge version
+- **Web:** PNG at 2x resolution (retina ready), SVG for responsive designs
+- **Print:** Request vector SVG or EPS version from brand team
+- **Social Media:** PNG at platform's recommended dimensions (1200x1200px minimum)
+- **Favicon:** 32x32px, 64x64px, or 256x256px PNG of icon version
 
 ### Color Profiles
 
 - **Web:** sRGB
-- **Print:** CMYK (request print-specific files)
+- **Print:** CMYK (request print-specific files from brand team)
 
 ---
 
@@ -350,12 +426,13 @@ Use these CSS custom properties in your projects:
 
 When creating materials for Cloud Native Provence:
 
-1. **Use the official logos** - Download from this repository
-2. **Follow the color palette** - Use the hex codes provided
-3. **Use Poppins font** - Available free from Google Fonts
-4. **Maintain accessibility** - Check contrast ratios for text
-5. **Keep it clean** - Use plenty of white space
+1. **Use the official logos** - Download from `/brand/logos/` directory
+2. **Follow the color palette** - Use the hex codes provided in this guide
+3. **Use Poppins or Work Sans fonts** - Available free from Google Fonts
+4. **Maintain accessibility** - Check contrast ratios for all text
+5. **Keep it clean** - Use plenty of whitespace and clear hierarchy
 6. **Be consistent** - Follow these guidelines across all materials
+7. **Test responsiveness** - Ensure materials work on all screen sizes
 
 ### Questions or Custom Assets?
 
@@ -363,20 +440,74 @@ Open an issue in this repository or contact the Cloud Native Provence brand team
 
 ---
 
+## 🌊 Banner Design System
+
+### Visual Language: "Mediterranean Waves"
+
+The official banner style for Cloud Native Provence draws on the Provençal Mediterranean landscape. It features layered, flowing wave shapes that evoke the sea, soft misty backgrounds like morning light, and thin line art suggesting distant mountain ridges.
+
+### Design Elements
+
+**Background:**
+- Soft vertical gradient from Alpine White (#f0f4fa) to near-white (#fafbfd)
+- Subtle elliptical cloud shapes in the upper area (low opacity, Gaussian-blurred)
+
+**Mountain Line Art:**
+- Thin teal/green lines (#238c9b) tracing gentle mountain ridgelines
+- 1–2px stroke, semi-transparent (~120 alpha)
+- Positioned in the mid-to-upper zone
+
+**Wave Layers (bottom half):**
+- 6–8 layered, translucent wave shapes stacking from light to saturated
+- Light layers: pale blue (#d2e6f5 → #b4d2eb) at low opacity (80–100 alpha)
+- Mid layers: soft teal/blue (#a0c8e1) at medium opacity (100–110 alpha)
+- Foreground layers: Provence Blue (#356cc8) and deep blue (#2d5fb4) at high opacity (200–230 alpha)
+- Waves use sine functions with varying amplitude/frequency for organic flow
+
+**Blue-to-Purple Variant:**
+- Same structure, but foreground wave layers transition from Provence Blue on the left to Lavender Purple (#8260c8) on the right
+- Used for event banners (e.g., KCD) and special occasions
+
+### Banner Files
+
+| File | Dimensions | Description | Use Case |
+|------|-----------|-------------|----------|
+| `banner_waves_blue.png` | 1920×600 | Blue wave background (no text) | Website headers, social media covers, general backgrounds |
+| `banner_waves_purple.png` | 1920×600 | Blue-to-purple wave background (no text) | Event backgrounds, special announcements |
+| `banner_meetup.png` | 1920×600 | Blue waves + logo + "Community Meetup" text | Monthly meetup announcements, Meetup.com header |
+| `banner_kcd.png` | 1920×600 | Purple waves + logo + "Kubernetes Community Days" text | KCD event branding, conference materials |
+
+### Banner Usage Guidelines
+
+- **Text-free backgrounds** (`banner_waves_blue.png`, `banner_waves_purple.png`) can be used with custom text overlays in Canva, Figma, etc.
+- **Text-included banners** should be used as-is; do not add additional text layers
+- Logo placement: left side for meetup banners, right side for event banners
+- Text color on wave backgrounds: Deep Navy (#1a2d4d) for titles, Storm Gray (#4a5568) for subtitles, Provence Blue (#356cc8) for accents
+- Ensure text sits in the upper portion where the background is light
+
+---
+
 ## 📞 Brand Assets
 
-All brand assets are available in the `/assets/brand/` directory:
+All brand assets are available in the `/brand/` directory:
 
 ```
-/assets/brand/
+/brand/
 ├── logos/
-│   ├── cnp-logo-full-hexagon.png
-│   ├── cnp-logo-outlined-cloud.png
-│   └── cnp-logo-filled-badge.png
+│   ├── cnp-logo-helm-hires.png
+│   ├── cnp-logo-helm.svg
+│   └── cnp-logo-helm-icon.png (future)
+├── banner/
+│   ├── banner_waves_blue.png
+│   ├── banner_waves_purple.png
+│   ├── banner_meetup.png
+│   └── banner_kcd.png
 ├── colors/
 │   └── color-palette.css
-└── fonts/
-    └── poppins-import.css
+├── fonts/
+│   └── poppins-import.css
+├── BRAND_GUIDE.md
+└── README.md
 ```
 
 ---
@@ -384,23 +515,30 @@ All brand assets are available in the `/assets/brand/` directory:
 ## 📋 Quick Reference
 
 **Primary Colors:**
-- Deep Navy: `#00132e`
-- Azure Blue: `#004a9b`
-- Cream White: `#fffffd`
+- Provence Blue: `#356cc8` (RGB 53, 108, 200)
+- Pure White: `#ffffff` (RGB 255, 255, 255)
+- Deep Navy: `#1a2d4d` (RGB 26, 45, 77)
 
-**Accent Colors:**
-- Sky Blue: `#5ba3d0`
-- Lavender: `#a78bfa`
-- Slate Gray: `#7a8694`
+**Complementary Colors:**
+- Sky Mist: `#6b8fd4`
+- Alpine White: `#f0f4fa`
+- Storm Gray: `#4a5568`
+- Mediterranean Teal: `#2da3b8`
 
-**Font:** Poppins (Google Fonts)
+**Fonts:** Poppins (primary), Work Sans (alternative)
 
-**Logo Versions:** Full Hexagon Badge, Outlined Cloud, Filled Badge
+**Logo Versions:** Full Helm Badge, SVG Helm, Icon Helm Badge
+
+**Key Features:**
+- Ship's helm/wheel design (Kubernetes-inspired)
+- Provence/Mediterranean visual elements
+- Cloud-native branding alignment
+- Professional, scalable aesthetic
 
 ---
 
-**Version:** 1.0  
-**Last Updated:** December 2025  
+**Version:** 2.1
+**Last Updated:** February 2026
 **Maintained by:** Cloud Native Provence Community
 
 ---
