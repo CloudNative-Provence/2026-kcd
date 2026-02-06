@@ -1,9 +1,10 @@
 /**
  * Cloud Native Provence - Color Palette
- * Version: 1.0
- * Last Updated: December 2025
+ * Version: 2.0
+ * Last Updated: February 2026
  *
  * Official color palette for Cloud Native Provence community materials.
+ * Updated for the ship's helm/wheel logo design.
  * Includes CSS custom properties and utility classes.
  */
 
@@ -13,35 +14,39 @@
 
 :root {
   /* Primary Brand Colors */
-  --cnp-deep-navy: #00132e;
-  --cnp-azure-blue: #004a9b;
-  --cnp-cream-white: #fffffd;
+  --cnp-provence-blue: #356cc8;
+  --cnp-pure-white: #ffffff;
+  --cnp-deep-navy: #1a2d4d;
 
   /* Complementary Colors */
-  --cnp-sky-blue: #5ba3d0;
-  --cnp-lavender: #a78bfa;
-  --cnp-slate-gray: #7a8694;
+  --cnp-sky-mist: #6b8fd4;
+  --cnp-alpine-white: #f0f4fa;
+  --cnp-storm-gray: #4a5568;
+  --cnp-mediterranean-teal: #2da3b8;
 
   /* Semantic Color Aliases */
-  --cnp-primary: var(--cnp-deep-navy);
-  --cnp-secondary: var(--cnp-azure-blue);
-  --cnp-accent: var(--cnp-lavender);
-  --cnp-background: var(--cnp-cream-white);
+  --cnp-primary: var(--cnp-provence-blue);
+  --cnp-secondary: var(--cnp-deep-navy);
+  --cnp-accent: var(--cnp-mediterranean-teal);
+  --cnp-background: var(--cnp-pure-white);
   --cnp-text: var(--cnp-deep-navy);
-  --cnp-text-muted: var(--cnp-slate-gray);
+  --cnp-text-secondary: var(--cnp-storm-gray);
 
   /* RGB Values (for alpha transparency) */
-  --cnp-deep-navy-rgb: 0, 19, 46;
-  --cnp-azure-blue-rgb: 0, 74, 155;
-  --cnp-cream-white-rgb: 255, 255, 253;
-  --cnp-sky-blue-rgb: 91, 163, 208;
-  --cnp-lavender-rgb: 167, 139, 250;
-  --cnp-slate-gray-rgb: 122, 134, 148;
+  --cnp-provence-blue-rgb: 53, 108, 200;
+  --cnp-pure-white-rgb: 255, 255, 255;
+  --cnp-deep-navy-rgb: 26, 45, 77;
+  --cnp-sky-mist-rgb: 107, 143, 212;
+  --cnp-alpine-white-rgb: 240, 244, 250;
+  --cnp-storm-gray-rgb: 74, 85, 104;
+  --cnp-mediterranean-teal-rgb: 45, 163, 184;
 
   /* State Colors */
-  --cnp-hover-azure: #003875;
-  --cnp-hover-lavender: #9370f0;
-  --cnp-hover-sky: #4a8fc4;
+  --cnp-hover-provence: #2a56b0;
+  --cnp-active-provence: #1f3f7d;
+  --cnp-hover-teal: #2487a0;
+  --cnp-active-teal: #1d6b85;
+  --cnp-hover-sky: #5a7ec8;
 }
 
 /* ============================================================================
@@ -49,29 +54,33 @@
    ============================================================================ */
 
 /* Primary Backgrounds */
+.cnp-bg-provence-blue {
+  background-color: var(--cnp-provence-blue);
+}
+
+.cnp-bg-pure-white {
+  background-color: var(--cnp-pure-white);
+}
+
 .cnp-bg-deep-navy {
   background-color: var(--cnp-deep-navy);
 }
 
-.cnp-bg-azure-blue {
-  background-color: var(--cnp-azure-blue);
-}
-
-.cnp-bg-cream-white {
-  background-color: var(--cnp-cream-white);
-}
-
 /* Complementary Backgrounds */
-.cnp-bg-sky-blue {
-  background-color: var(--cnp-sky-blue);
+.cnp-bg-sky-mist {
+  background-color: var(--cnp-sky-mist);
 }
 
-.cnp-bg-lavender {
-  background-color: var(--cnp-lavender);
+.cnp-bg-alpine-white {
+  background-color: var(--cnp-alpine-white);
 }
 
-.cnp-bg-slate-gray {
-  background-color: var(--cnp-slate-gray);
+.cnp-bg-storm-gray {
+  background-color: var(--cnp-storm-gray);
+}
+
+.cnp-bg-mediterranean-teal {
+  background-color: var(--cnp-mediterranean-teal);
 }
 
 /* Semantic Backgrounds */
@@ -88,6 +97,18 @@
 }
 
 /* Background with Opacity */
+.cnp-bg-provence-blue-10 {
+  background-color: rgba(var(--cnp-provence-blue-rgb), 0.1);
+}
+
+.cnp-bg-provence-blue-20 {
+  background-color: rgba(var(--cnp-provence-blue-rgb), 0.2);
+}
+
+.cnp-bg-provence-blue-50 {
+  background-color: rgba(var(--cnp-provence-blue-rgb), 0.5);
+}
+
 .cnp-bg-deep-navy-10 {
   background-color: rgba(var(--cnp-deep-navy-rgb), 0.1);
 }
@@ -96,24 +117,20 @@
   background-color: rgba(var(--cnp-deep-navy-rgb), 0.2);
 }
 
-.cnp-bg-deep-navy-50 {
-  background-color: rgba(var(--cnp-deep-navy-rgb), 0.5);
+.cnp-bg-mediterranean-teal-10 {
+  background-color: rgba(var(--cnp-mediterranean-teal-rgb), 0.1);
 }
 
-.cnp-bg-azure-blue-10 {
-  background-color: rgba(var(--cnp-azure-blue-rgb), 0.1);
+.cnp-bg-mediterranean-teal-20 {
+  background-color: rgba(var(--cnp-mediterranean-teal-rgb), 0.2);
 }
 
-.cnp-bg-azure-blue-20 {
-  background-color: rgba(var(--cnp-azure-blue-rgb), 0.2);
+.cnp-bg-sky-mist-10 {
+  background-color: rgba(var(--cnp-sky-mist-rgb), 0.1);
 }
 
-.cnp-bg-lavender-10 {
-  background-color: rgba(var(--cnp-lavender-rgb), 0.1);
-}
-
-.cnp-bg-lavender-20 {
-  background-color: rgba(var(--cnp-lavender-rgb), 0.2);
+.cnp-bg-sky-mist-20 {
+  background-color: rgba(var(--cnp-sky-mist-rgb), 0.2);
 }
 
 /* ============================================================================
@@ -121,29 +138,33 @@
    ============================================================================ */
 
 /* Primary Text Colors */
+.cnp-text-provence-blue {
+  color: var(--cnp-provence-blue);
+}
+
+.cnp-text-pure-white {
+  color: var(--cnp-pure-white);
+}
+
 .cnp-text-deep-navy {
   color: var(--cnp-deep-navy);
 }
 
-.cnp-text-azure-blue {
-  color: var(--cnp-azure-blue);
-}
-
-.cnp-text-cream-white {
-  color: var(--cnp-cream-white);
-}
-
 /* Complementary Text Colors */
-.cnp-text-sky-blue {
-  color: var(--cnp-sky-blue);
+.cnp-text-sky-mist {
+  color: var(--cnp-sky-mist);
 }
 
-.cnp-text-lavender {
-  color: var(--cnp-lavender);
+.cnp-text-alpine-white {
+  color: var(--cnp-alpine-white);
 }
 
-.cnp-text-slate-gray {
-  color: var(--cnp-slate-gray);
+.cnp-text-storm-gray {
+  color: var(--cnp-storm-gray);
+}
+
+.cnp-text-mediterranean-teal {
+  color: var(--cnp-mediterranean-teal);
 }
 
 /* Semantic Text Colors */
@@ -160,7 +181,7 @@
 }
 
 .cnp-text-muted {
-  color: var(--cnp-text-muted);
+  color: var(--cnp-text-secondary);
 }
 
 /* ============================================================================
@@ -168,38 +189,42 @@
    ============================================================================ */
 
 /* Primary Border Colors */
+.cnp-border-provence-blue {
+  border-color: var(--cnp-provence-blue);
+}
+
 .cnp-border-deep-navy {
   border-color: var(--cnp-deep-navy);
 }
 
-.cnp-border-azure-blue {
-  border-color: var(--cnp-azure-blue);
-}
-
-.cnp-border-cream-white {
-  border-color: var(--cnp-cream-white);
+.cnp-border-pure-white {
+  border-color: var(--cnp-pure-white);
 }
 
 /* Complementary Border Colors */
-.cnp-border-sky-blue {
-  border-color: var(--cnp-sky-blue);
+.cnp-border-sky-mist {
+  border-color: var(--cnp-sky-mist);
 }
 
-.cnp-border-lavender {
-  border-color: var(--cnp-lavender);
+.cnp-border-mediterranean-teal {
+  border-color: var(--cnp-mediterranean-teal);
 }
 
-.cnp-border-slate-gray {
-  border-color: var(--cnp-slate-gray);
+.cnp-border-storm-gray {
+  border-color: var(--cnp-storm-gray);
 }
 
 /* Border Utilities */
 .cnp-border {
-  border: 1px solid var(--cnp-slate-gray);
+  border: 1px solid var(--cnp-storm-gray);
 }
 
 .cnp-border-2 {
-  border: 2px solid var(--cnp-slate-gray);
+  border: 2px solid var(--cnp-storm-gray);
+}
+
+.cnp-border-primary {
+  border: 2px solid var(--cnp-provence-blue);
 }
 
 /* ============================================================================
@@ -208,31 +233,31 @@
 
 /* Brand Gradients */
 .cnp-gradient-primary {
-  background: linear-gradient(135deg, var(--cnp-azure-blue) 0%, var(--cnp-deep-navy) 100%);
+  background: linear-gradient(135deg, var(--cnp-provence-blue) 0%, var(--cnp-deep-navy) 100%);
 }
 
 .cnp-gradient-accent {
-  background: linear-gradient(135deg, var(--cnp-lavender) 0%, var(--cnp-azure-blue) 100%);
+  background: linear-gradient(135deg, var(--cnp-mediterranean-teal) 0%, var(--cnp-provence-blue) 100%);
 }
 
 .cnp-gradient-sky {
-  background: linear-gradient(135deg, var(--cnp-sky-blue) 0%, var(--cnp-azure-blue) 100%);
+  background: linear-gradient(135deg, var(--cnp-sky-mist) 0%, var(--cnp-provence-blue) 100%);
 }
 
 .cnp-gradient-overlay {
-  background: linear-gradient(180deg, rgba(var(--cnp-deep-navy-rgb), 0.8) 0%, rgba(var(--cnp-azure-blue-rgb), 0.9) 100%);
+  background: linear-gradient(180deg, rgba(var(--cnp-deep-navy-rgb), 0.8) 0%, rgba(var(--cnp-provence-blue-rgb), 0.9) 100%);
 }
 
 /* Text Gradients */
 .cnp-text-gradient-primary {
-  background: linear-gradient(135deg, var(--cnp-azure-blue) 0%, var(--cnp-deep-navy) 100%);
+  background: linear-gradient(135deg, var(--cnp-provence-blue) 0%, var(--cnp-deep-navy) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .cnp-text-gradient-accent {
-  background: linear-gradient(135deg, var(--cnp-lavender) 0%, var(--cnp-azure-blue) 100%);
+  background: linear-gradient(135deg, var(--cnp-mediterranean-teal) 0%, var(--cnp-provence-blue) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -242,12 +267,12 @@
    HOVER STATE UTILITIES
    ============================================================================ */
 
-.cnp-hover-azure:hover {
-  background-color: var(--cnp-hover-azure);
+.cnp-hover-provence:hover {
+  background-color: var(--cnp-hover-provence);
 }
 
-.cnp-hover-lavender:hover {
-  background-color: var(--cnp-hover-lavender);
+.cnp-hover-teal:hover {
+  background-color: var(--cnp-hover-teal);
 }
 
 .cnp-hover-sky:hover {
@@ -269,7 +294,7 @@
 }
 
 .cnp-shadow-md {
-  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.12);
+  box-shadow: 0 4px 16px rgba(var(--cnp-provence-blue-rgb), 0.12);
 }
 
 .cnp-shadow-lg {
@@ -277,16 +302,16 @@
 }
 
 .cnp-shadow-xl {
-  box-shadow: 0 12px 32px rgba(var(--cnp-azure-blue-rgb), 0.2);
+  box-shadow: 0 12px 32px rgba(var(--cnp-provence-blue-rgb), 0.2);
 }
 
 /* Colored shadows */
-.cnp-shadow-azure {
-  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.3);
+.cnp-shadow-provence {
+  box-shadow: 0 4px 16px rgba(var(--cnp-provence-blue-rgb), 0.3);
 }
 
-.cnp-shadow-lavender {
-  box-shadow: 0 4px 16px rgba(var(--cnp-lavender-rgb), 0.3);
+.cnp-shadow-teal {
+  box-shadow: 0 4px 16px rgba(var(--cnp-mediterranean-teal-rgb), 0.3);
 }
 
 /* ============================================================================
@@ -295,14 +320,14 @@
 
 /* Focus States (Accessibility) */
 .cnp-focus-visible:focus-visible {
-  outline: 2px solid var(--cnp-lavender);
+  outline: 2px solid var(--cnp-provence-blue);
   outline-offset: 2px;
 }
 
 /* Skip to content link */
 .cnp-skip-link {
-  background-color: var(--cnp-azure-blue);
-  color: var(--cnp-cream-white);
+  background-color: var(--cnp-provence-blue);
+  color: var(--cnp-pure-white);
   padding: 0.5rem 1rem;
   position: absolute;
   left: -9999px;
@@ -319,8 +344,8 @@
 
 /* Example: Card with brand colors */
 .cnp-card {
-  background-color: var(--cnp-cream-white);
-  border: 1px solid rgba(var(--cnp-slate-gray-rgb), 0.2);
+  background-color: var(--cnp-pure-white);
+  border: 1px solid rgba(var(--cnp-storm-gray-rgb), 0.2);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(var(--cnp-deep-navy-rgb), 0.08);
@@ -328,13 +353,13 @@
 }
 
 .cnp-card:hover {
-  box-shadow: 0 4px 16px rgba(var(--cnp-azure-blue-rgb), 0.12);
+  box-shadow: 0 4px 16px rgba(var(--cnp-provence-blue-rgb), 0.12);
 }
 
 /* Example: Button Primary */
 .cnp-btn-primary {
-  background-color: var(--cnp-azure-blue);
-  color: var(--cnp-cream-white);
+  background-color: var(--cnp-provence-blue);
+  color: var(--cnp-pure-white);
   border: none;
   padding: 0.75rem 2rem;
   border-radius: 8px;
@@ -344,14 +369,18 @@
 }
 
 .cnp-btn-primary:hover {
-  background-color: var(--cnp-hover-azure);
+  background-color: var(--cnp-hover-provence);
+}
+
+.cnp-btn-primary:active {
+  background-color: var(--cnp-active-provence);
 }
 
 /* Example: Button Secondary */
 .cnp-btn-secondary {
   background-color: transparent;
-  color: var(--cnp-azure-blue);
-  border: 2px solid var(--cnp-azure-blue);
+  color: var(--cnp-provence-blue);
+  border: 2px solid var(--cnp-provence-blue);
   padding: 0.75rem 2rem;
   border-radius: 8px;
   font-weight: 600;
@@ -360,13 +389,17 @@
 }
 
 .cnp-btn-secondary:hover {
-  background-color: rgba(var(--cnp-azure-blue-rgb), 0.1);
+  background-color: var(--cnp-alpine-white);
+}
+
+.cnp-btn-secondary:active {
+  background-color: rgba(var(--cnp-provence-blue-rgb), 0.15);
 }
 
 /* Example: Button Accent */
 .cnp-btn-accent {
-  background-color: var(--cnp-lavender);
-  color: var(--cnp-cream-white);
+  background-color: var(--cnp-mediterranean-teal);
+  color: var(--cnp-pure-white);
   border: none;
   padding: 0.75rem 2rem;
   border-radius: 8px;
@@ -376,7 +409,11 @@
 }
 
 .cnp-btn-accent:hover {
-  background-color: var(--cnp-hover-lavender);
+  background-color: var(--cnp-hover-teal);
+}
+
+.cnp-btn-accent:active {
+  background-color: var(--cnp-active-teal);
 }
 
 /* Example: Badge */
@@ -389,19 +426,19 @@
 }
 
 .cnp-badge-primary {
-  background-color: var(--cnp-azure-blue);
-  color: var(--cnp-cream-white);
+  background-color: var(--cnp-provence-blue);
+  color: var(--cnp-pure-white);
 }
 
 .cnp-badge-accent {
-  background-color: var(--cnp-lavender);
-  color: var(--cnp-cream-white);
+  background-color: var(--cnp-mediterranean-teal);
+  color: var(--cnp-pure-white);
 }
 
 .cnp-badge-outline {
   background-color: transparent;
-  border: 2px solid var(--cnp-azure-blue);
-  color: var(--cnp-azure-blue);
+  border: 2px solid var(--cnp-provence-blue);
+  color: var(--cnp-provence-blue);
 }
 
 /* Example: Alert/Banner */
@@ -412,15 +449,38 @@
 }
 
 .cnp-alert-info {
-  background-color: rgba(var(--cnp-sky-blue-rgb), 0.1);
-  border-left: 4px solid var(--cnp-sky-blue);
+  background-color: rgba(var(--cnp-sky-mist-rgb), 0.1);
+  border-left: 4px solid var(--cnp-sky-mist);
   color: var(--cnp-deep-navy);
 }
 
 .cnp-alert-accent {
-  background-color: rgba(var(--cnp-lavender-rgb), 0.1);
-  border-left: 4px solid var(--cnp-lavender);
+  background-color: rgba(var(--cnp-mediterranean-teal-rgb), 0.1);
+  border-left: 4px solid var(--cnp-mediterranean-teal);
   color: var(--cnp-deep-navy);
+}
+
+.cnp-alert-warning {
+  background-color: rgba(var(--cnp-provence-blue-rgb), 0.1);
+  border-left: 4px solid var(--cnp-provence-blue);
+  color: var(--cnp-deep-navy);
+}
+
+/* Example: Input Field */
+.cnp-input {
+  background-color: var(--cnp-pure-white);
+  border: 1px solid rgba(var(--cnp-storm-gray-rgb), 0.3);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: var(--cnp-deep-navy);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cnp-input:focus {
+  outline: none;
+  border-color: var(--cnp-provence-blue);
+  box-shadow: 0 0 0 3px rgba(var(--cnp-provence-blue-rgb), 0.1);
 }
 
 /* ============================================================================
@@ -431,12 +491,18 @@
   :root {
     /* Adjust colors for dark mode if needed */
     --cnp-background: var(--cnp-deep-navy);
-    --cnp-text: var(--cnp-cream-white);
+    --cnp-text: var(--cnp-pure-white);
   }
 
   .cnp-card {
-    background-color: rgba(var(--cnp-cream-white-rgb), 0.05);
-    border-color: rgba(var(--cnp-cream-white-rgb), 0.1);
+    background-color: rgba(var(--cnp-pure-white-rgb), 0.05);
+    border-color: rgba(var(--cnp-pure-white-rgb), 0.1);
+  }
+
+  .cnp-input {
+    background-color: rgba(var(--cnp-pure-white-rgb), 0.05);
+    border-color: rgba(var(--cnp-pure-white-rgb), 0.1);
+    color: var(--cnp-pure-white);
   }
 }
 
@@ -488,6 +554,30 @@
 
 .cnp-grid {
   display: grid;
+}
+
+/* Opacity Utilities */
+.cnp-opacity-50 {
+  opacity: 0.5;
+}
+
+.cnp-opacity-75 {
+  opacity: 0.75;
+}
+
+/* ============================================================================
+   DEPRECATED COLOR MAPPINGS (v1.x - DO NOT USE)
+   ============================================================================ */
+
+/* These colors are deprecated as of version 2.0 */
+/* Kept for backwards compatibility but should not be used in new projects */
+:root {
+  --cnp-old-deep-navy: #00132e;
+  --cnp-old-azure-blue: #004a9b;
+  --cnp-old-cream-white: #fffffd;
+  --cnp-old-sky-blue: #5ba3d0;
+  --cnp-old-lavender: #a78bfa;
+  --cnp-old-slate-gray: #7a8694;
 }
 
 /* ============================================================================
