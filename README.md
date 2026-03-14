@@ -1,44 +1,40 @@
-# Kubernetes Community Days South of France (2026)
+# Kubernetes Community Days Provence (2026)
 
-Organization of the Kubernetes Community Days in South of France
+Organization of the Kubernetes Community Days in Aix en Provence
 
 ## Event Details
 
-- [ ] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
-- [x] Event Date and Time: 17 September 2026
-- [x] Event Location: theCamp
+- [X] CNCF Issue to be created : (https://github.com/cncf/kubernetes-community-days/)
+- [X] Event Date and Time: 10th of December 2026
+- [x] Event Location: Palais des Congrès
 - [x] Event Type: In person
-- [x] Expected Number of Attendees: ~400
+- [x] Expected Number of Attendees: ~500
 - [x] Event cost per ticket: 50€ (early bird) / 90€
 
 ## Sponsors
 
-Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstSCKX_y3V-YNmp8ZGdi0/view?usp=share_link)
+Find our [sponsoring prospectus](https://docs.google.com/presentation/d/1HU_xxh5R3BMm121SR7qwKqWa8MsSlqW3Z7e_mofXX9Q/edit?usp=share_link)
 
 ## Meetings and Communication
 
-- Currently, every second Thuyrsday at 5pm CET
-- Agenda and Notes:
-- Slack: CNCF Channel TBD
+- Currently, every  Wednesday at 6pm CET
 
 ## Organizer Decisions
 
-- mutual promotion of KCD Paris?
-- use Sessionize for CfP
+- use Conference-Hall for CfP
 - no dedicated speaker slots will be “sold” to sponsors
-- using Buffer for social media posts
 - we will not tie mentorship/diversity program to "free tickets", it should be a separate program
 - we will pay travel & accomodation for keynote speakers
 - speakers CfP: Submissions will not be editable after submitting, that will ease the process of reviewing, reviews can happen as soon as something is submitted
-- we will do workshops, delivered by individual speakers, applications via CfP
+- we won't provide any travel funding for speakers
 
 ## Project Team
 
 | Role                                                        | GitHub Handle   |
 | ----------------------------------------------------------- | --------------- |
-| [Coordination Team](./ROLES.md#coordinator-role)            | @maxime-CLS     |
+| [Coordination Team](./ROLES.md#coordinator-role)            | @henrikrexed      |
 | [Finance Team](./ROLES.md#finance-role)                     | @sherine-k      |
-| [Marketing Team](./ROLES.md#marketing-role)                 | @henrikrexed    |
+| [Marketing Team](./ROLES.md#marketing-role)                 | @doniacld    |
 | [Speaker Organizer Team](./ROLES.md#speaker-organiser-role) | @sebastienblanc |
 | [Sponsor Organizer Team](./ROLES.md#sponsor-organiser-role) | @lucj           |
 | [Venue Organizer Team](./ROLES.md#venue-organiser-role)     | @fredleger      |
@@ -49,4 +45,4 @@ Find our [sponsoring prospectus](https://drive.google.com/file/d/1BTvt8IpZFnhstS
 - Frederic Leger, webofmars, freelance, @fredleger
 - Luc Juggery, exoscale, devrel, @lucj
 - Sébastien Blanc, port.io, devrel, @sebastienblanc
-- Maxime Calves, CAGIP, lead SRE, @maxime-CLS
+- Donia Chaiehloudj , Isovalent, Senior Software Engineer, @doniacld
